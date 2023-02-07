@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Footer from "./Footer";
 
 const winningCombinations = [
     [0, 1, 2],
@@ -178,6 +179,7 @@ const Board = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
