@@ -1,5 +1,7 @@
 # TicTacToe Game!
 
+![tic-tac-toe-game](https://user-images.githubusercontent.com/76853663/217305775-c8956120-2442-42e5-9b15-d2dca98f7378.gif)
+
 ## Install
 
 In the project directory, you can run:
@@ -22,4 +24,4 @@ Builds the app for production to the `build` folder.
 
 ## Contributing
 
-If you're interested in contributing to this app feel free. If you're interested in contributing to TicTacToe, please read  [contributing docs](https://github.com/berikidis/tic-tac-toe-reactjs/blob/main/.github/CONTRIBUTING.md) before submitting a pull request.
+If you're interested in contributing to this app feel free. If you're interested in contributing to TicTacToe, please read [contributing docs](https://github.com/berikidis/tic-tac-toe-reactjs/blob/readme/CONTRIBUTING.md) before submitting a pull request.
