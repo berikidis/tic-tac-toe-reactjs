@@ -48,7 +48,6 @@ const Board = () => {
         })
         setIsXNext(prevIsXNext => !prevIsXNext)
     }
-
     useEffect(() => {
         let winner = null
         for (let i = 0; i < winningCombinations.length; i++) {
