@@ -34,7 +34,6 @@ const Board = () => {
     const [xWins, setXWins] = useState(0)
     const [oWins, setOWins] = useState(0)
     const [draws, setDraws] = useState(0)
-
     const handleClick = i => {
         if (winningSquares || squares[i]) {
             return
