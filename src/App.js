@@ -135,7 +135,6 @@ const Board = () => {
                                 {renderSquare(8)}
                             </div>
 
-
                             <div className="flex flex-row items-center gap-x-20">
                                 {winningSquares ? (
                                     <div className="flex flex-row gap-x-6 items-center">
