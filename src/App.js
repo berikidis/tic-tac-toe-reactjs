@@ -11,7 +11,6 @@ const winningCombinations = [
     [0, 4, 8],
     [2, 4, 6]
 ]
-
 function Square({ className, onClick, value }) {
     return (
         <button className={`flex items-center border border-zinc-100 justify-center h-32 w-32 hover:bg-zinc-50 active:scale-90 active:shadow-2xl transition-all rounded-xl ${className}`} onClick={onClick}>
@@ -28,7 +27,6 @@ function Square({ className, onClick, value }) {
         </button>
     )
 }
-
 const Board = () => {
     const [squares, setSquares] = useState(Array(9).fill(null))
     const [isXNext, setIsXNext] = useState(true)
