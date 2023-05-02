@@ -122,7 +122,6 @@ const Board = () => {
                                 </div>
                             </div>
 
-
                             <div className="grid grid-cols-3 shadow-2xl rounded-xl relative overflow-hidden">
                                 {renderSquare(0)}
                                 {renderSquare(1)}
